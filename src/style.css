@@ -1,6 +1,8 @@
+html {
+  min-height: 100%;
+}
+
 body {
-  /* overflow: hidden; */
-  height: 100vh;
   background-size: cover;
   background: rgb(255, 244, 199);
   background: linear-gradient(

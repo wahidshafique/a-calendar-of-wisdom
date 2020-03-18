@@ -1,6 +1,6 @@
 <script>
   import Header from "./components/header.svelte";
-  import { onMount } from "svelte";
+  import Footer from "./components/footer.svelte";
   export let quotes = [];
 
   const monthNames = [
@@ -21,8 +21,6 @@
   const date = new Date();
   const month = monthNames[date.getMonth()];
   const day = date.getDate();
-
-  //onMount(() => {});
   const parsedQuotes = quotes[`${month} ${day}`].entryContent.trim();
 </script>
 
@@ -46,3 +44,4 @@
     {@html parsedQuotes}
   </p>
 </div>
+<Footer />
