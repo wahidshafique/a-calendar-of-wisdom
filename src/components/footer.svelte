@@ -1,3 +1,7 @@
+<script>
+  import FooterImg from "../assets/favicon-192.png";
+</script>
+
 <style>
   a {
     color: #f0b641;
@@ -27,4 +31,9 @@
     Special thanks to
     <a href="https://a-calendar-of-wisdom.blogspot.com/">Hugh Songs</a>
   </p>
+  <img
+    src={FooterImg}
+    height="32px"
+    width="32px"
+    alt="Stylized footer icon of an unknown creature" />
 </div>
