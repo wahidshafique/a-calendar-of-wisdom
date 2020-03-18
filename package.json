@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6"
+  },
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "dependencies": {
+    "svelte": "^3.20.1"
+  }
+}

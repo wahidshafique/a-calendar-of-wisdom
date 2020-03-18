@@ -1,0 +1,11 @@
+body {
+  /* overflow: hidden; */
+  height: 100vh;
+  background-size: cover;
+  background: rgb(255, 244, 199);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 244, 199, 0.8384397704394257) 42%,
+    rgba(255, 212, 122, 0.8552464931285014) 100%
+  );
+}
