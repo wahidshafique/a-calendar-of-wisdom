@@ -6,7 +6,8 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --no-source-maps",
+    "integ": "cd playground && node sorter.js  && node integrityCheck.js"
   },
   "browserslist": [
     "last 1 chrome versions"
