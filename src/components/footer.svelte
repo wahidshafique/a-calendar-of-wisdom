@@ -17,6 +17,15 @@
     margin: 0.25rem;
     cursor: pointer;
     transition: all 0.2s;
+    display: flex;
+    flex: 0.1;
+    place-content: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    button {
+      flex: 1;
+    }
   }
 
   button:hover {
@@ -25,6 +34,11 @@
   }
   a {
     color: #f0b641;
+  }
+
+  .btn-container {
+    display: flex;
+    place-content: center;
   }
   .footer {
     margin-top: 24px;
@@ -41,21 +55,26 @@
 </style>
 
 <div class="footer">
-  <button
-    class="button1"
-    aria-label="Previous Date"
-    on:click={() => offsetDate(-1)}>
-    ⮜
-  </button>
-  <button
-    class="button1"
-    aria-label="Today's Date"
-    on:click={() => offsetDate(0)}>
-    ✺
-  </button>
-  <button class="button1" aria-label="Next Date" on:click={() => offsetDate(1)}>
-    ⮞
-  </button>
+  <div class="btn-container">
+    <button
+      class="button1"
+      aria-label="Previous Date"
+      on:click={() => offsetDate(-1)}>
+      ⮜
+    </button>
+    <button
+      class="button1"
+      aria-label="Today's Date"
+      on:click={() => offsetDate(0)}>
+      ✺
+    </button>
+    <button
+      class="button1"
+      aria-label="Next Date"
+      on:click={() => offsetDate(1)}>
+      ⮞
+    </button>
+  </div>
   <p>
     <a href="https://en.wikipedia.org/wiki/A_Calendar_of_Wisdom">
       A Calendar Of Wisdom by Leo Tolstoy
