@@ -18,10 +18,24 @@
     "December"
   ];
 
-  const date = new Date();
-  const month = monthNames[date.getMonth()];
-  const day = date.getDate();
-  const parsedQuotes = quotes[`${month} ${day}`].entryContent.trim();
+  let date = new Date();
+
+  const offsetDate = offsetAmount => {
+    if (offsetAmount === 0) {
+      date = new Date();
+      return;
+    }
+    date = new Date(
+      date.getFullYear(),
+      date.getMonth(),
+      date.getDate() + offsetAmount
+    );
+    console.log(date);
+  };
+  $: month = monthNames[date.getMonth()];
+  $: day = date.getDate();
+  $: currentQuote = quotes[`${month} ${day}`];
+  $: parsedQuotes = currentQuote.entryContent.trim();
 </script>
 
 <style>
@@ -44,4 +58,4 @@
     {@html parsedQuotes}
   </p>
 </div>
-<Footer />
+<Footer {offsetDate} />
