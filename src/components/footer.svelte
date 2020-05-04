@@ -60,7 +60,7 @@
       class="button1"
       aria-label="Previous Date"
       on:click={() => offsetDate(-1)}>
-      ⮜
+      ⬖
     </button>
     <button
       class="button1"
@@ -72,7 +72,7 @@
       class="button1"
       aria-label="Next Date"
       on:click={() => offsetDate(1)}>
-      ⮞
+      ⬗
     </button>
   </div>
   <p>
