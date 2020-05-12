@@ -31,6 +31,7 @@
       date.getDate() + offsetAmount
     );
     console.log(date);
+    window.scrollTo(0, 0);
   };
   $: month = monthNames[date.getMonth()];
   $: day = date.getDate();
