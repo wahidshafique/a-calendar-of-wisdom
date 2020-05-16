@@ -652,11 +652,6 @@ module.exports = {
     entryContent:
       "\n\n\nA person who tries\nto find good outside himself, either in this life or in the one to come, is\nmaking a mistake.\n\n\n\nI went along all the earth, searching for a guiding light.\nI went all over without rest, at night and during the day, and then I heard\nfrom a preacher, who opened the truth to me, that the answer is inside my soul,\nand that the light which I was looking for everywhere in the world is inside\nme.\n\n— Eastern Wisdom\n\n\n\nThere are no coincidences, either in life or in one’s fate.\nA man creates his own destiny.\n\n— Abel Villemain\n\n\n\nYou either make evil for yourself, or you escape sin and\npurify yourself; you are bad or evil, or you are pure; and nobody can save you\nexcept for yourself.\n\n— Dhammapadda, a book of Buddhist Wisdom\n\n\n\nYour body is a city which is full of good and evil; and\nyou are the king of this city and your intellect is your best counselor.\n\n— Saint Luke\n\n\n\nThe happiness or unhappiness of a man does not depend upon\nthe amount of property or gold he owns. Happiness or misery is in one’s soul. A\nwise man feels at home in every country. The whole universe is the home of a\nnoble soul.\n\n— Democritus\n\n\n\nNothing can give a\nman strength when he is looking for salvation other than his own effort.\n\n",
   },
-  "May 7": {
-    dataTitle: "may-7.html",
-    entryContent:
-      "\n\n\nA person who tries\nto find good outside himself, either in this life or in the one to come, is\nmaking a mistake.\n\n\n\nI went along all the earth, searching for a guiding light.\nI went all over without rest, at night and during the day, and then I heard\nfrom a preacher, who opened the truth to me, that the answer is inside my soul,\nand that the light which I was looking for everywhere in the world is inside\nme.\n\n— Eastern Wisdom\n\n\n\nThere are no coincidences, either in life or in one’s fate.\nA man creates his own destiny.\n\n— Abel Villemain\n\n\n\nYou either make evil for yourself, or you escape sin and\npurify yourself; you are bad or evil, or you are pure; and nobody can save you\nexcept for yourself.\n\n— Dhammapadda, a book of Buddhist Wisdom\n\n\n\nYour body is a city which is full of good and evil; and\nyou are the king of this city and your intellect is your best counselor.\n\n— Saint Luke\n\n\n\nThe happiness or unhappiness of a man does not depend upon\nthe amount of property or gold he owns. Happiness or misery is in one’s soul. A\nwise man feels at home in every country. The whole universe is the home of a\nnoble soul.\n\n— Democritus\n\n\n\nNothing can give a\nman strength when he is looking for salvation other than his own effort.\n\n",
-  },
   "May 8": {
     dataTitle: "may-8.html",
     entryContent:
@@ -1388,11 +1383,6 @@ module.exports = {
     dataTitle: "september-30.html",
     entryContent:
       "\n\n\nThe more lonely a person is,\nthe more clearly he can hear the voice of God.\n\n\n\n\n \n\n\nThe will to accomplish your\ngood intentions depends on whether you voice them. You remember the things of\nwhich you spoke in your youth as if they were flowers that you tore out of a\nflower bed and threw away, and then saw lying on the earth, faded into the\ndirt.\n\n\n \n\n\nIn the important questions of life, we are always alone. Our deepest\ninner thoughts cannot be understood by others. The best part of the drama that\ngoes on deep in our soul is a monologue, or, better to say, a very sincere\nconversation between God, our conscience, and ourself.\n\n\n— Henri\nAmiel\n\n\n \n\n\nTemporary solitude from all things in this life, the meditation\nwithin yourself about the divine, is food as necessary for your soul as\nmaterial food is for your body.\n\n\n",
-  },
-  "October 9": {
-    dataTitle: "october-9.html",
-    entryContent:
-      "\n\n\n\n\nThat which is born of the flesh is flesh, and that which is\nborn of the Spirit is spirit.\nMarvel not that I said unto thee, Ye must be born again. The wind bloweth where\nit listeth, and thou hearest the sound thereof, but canst not tell whence it\ncometh, and whither it goeth: so is every one that is born of the Spirit.\n\n\n— John\n3:6-8\n\n\n \n\n\nThe\nsouls of wise people look to the future state of their existence; all of their\nthoughts are concentrated toward eternity.\n\n\n— Marcus Tullius Cicero\n\n\n \n\n\nThere\nis not a single soul that can be good without God.\n\n\n— Lucius Annaeus Seneca\n\n\n \nSalvation in all things\nlies in their spirituality. Evil cannot touch a person who knows his\nspirituality.\n\n",
   },
   "October 1": {
     dataTitle: "october-1.html",
