@@ -6,7 +6,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --no-source-maps",
+    "build": "parcel build src/index.html --no-source-maps && mv _redirects dist/_redirects",
     "integ": "cd playground && node sorter.js  && node integrityCheck.js"
   },
   "browserslist": [
