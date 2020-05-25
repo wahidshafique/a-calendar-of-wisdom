@@ -13,6 +13,7 @@
     "last 1 chrome versions"
   ],
   "dependencies": {
-    "svelte": "^3.20.1"
+    "svelte": "^3.20.1",
+    "svelte-routing": "^1.4.2"
   }
 }
