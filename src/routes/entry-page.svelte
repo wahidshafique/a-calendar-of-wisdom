@@ -15,9 +15,10 @@
       return;
     }
     const identityDate = new Date(); // purely just to get the year
+    const browserCompatDate = `${parsedDateString}-${identityDate.getFullYear()}`.replace(/-/g,'/');  // replaces all occurances of "-" with "/" so it plays nice with ff
     const dateObject =
       new Date(
-        Date.parse(`${parsedDateString}-${identityDate.getFullYear()}`)
+        Date.parse(browserCompatDate)
       ) || new Date();
 
     console.log(dateObject);
