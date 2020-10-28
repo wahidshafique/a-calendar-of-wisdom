@@ -23,7 +23,7 @@
     includeMatches: true,
     threshold: 0.2,
     ignoreLocation: true,
-    minMatchCharLength: 2,
+    minMatchCharLength: 2
   })
 
   const search = (v) => {
@@ -149,8 +149,8 @@
     <VirtualList items={search(searchText)} let:item>
       <!-- this will be rendered for each currently visible item -->
       <p>
-        <strong>{item?.item?.key || item?.key}</strong>
-        {@html (item?.item || item).content.replace(/(?:\r\n|\r|\n)/g, '<br>')}
+        <strong>{(item.item && item.item.key) || item.key}</strong>
+        {@html (item.item || item).content.replace(/(?:\r\n|\r|\n)/g, '<br>')}
       </p>
     </VirtualList>
   </div>
