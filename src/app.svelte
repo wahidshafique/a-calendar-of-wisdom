@@ -2,6 +2,7 @@
   import { Router, Route } from "svelte-routing";
   import EntryPage from "./routes/entry-page.svelte";
   import { convertToMonthDay, capitalizeFirstLetter } from "./helpers";
+  import SearchPage from "./routes/search-page.svelte";
   export let url = "";
 </script>
 
@@ -12,6 +13,9 @@
     </Route>
     <Route path="/">
       <EntryPage parsedDateString={convertToMonthDay(new Date())} />
+    </Route>
+    <Route path="/search">
+      <SearchPage/>
     </Route>
   </div>
 </Router>

@@ -1,6 +1,7 @@
 <script>
-  import FooterImg from "../assets/favicon-192.png";
-  export let offsetDate;
+  import { navigate } from 'svelte-routing'
+  import FooterImg from '../assets/favicon-192.png'
+  export let offsetDate
 </script>
 
 <style>
@@ -86,6 +87,7 @@
     <a href="https://a-calendar-of-wisdom.blogspot.com/">Hugh Songs</a>
   </p>
   <img
+    on:click={() => navigate('search')}
     src={FooterImg}
     height="32px"
     width="32px"
